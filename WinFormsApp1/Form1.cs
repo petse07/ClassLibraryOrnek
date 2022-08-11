@@ -9,11 +9,7 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void Hesapla(object sender, EventArgs e)
-        {
-            Class1 cls = new Class1();
-            MessageBox.Show("Toplam = " + cls.Topla(Convert.ToInt16(textSayi1), Convert.ToInt16(textSayi2) ));
-        }
+
 
         private void buttonHesapla_Click(object sender, EventArgs e)
         {
